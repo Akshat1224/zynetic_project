@@ -111,13 +111,11 @@ GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY
 ```
 
 ---
-
 ## 🔗 Contact
 
-- **GitHub:** [GitHub Profile](https://github.com/Akshat1224)
-- **Email:** [My Email](mailto\:akshatkushwaha7oct2003@gmail.com)
+- **GitHub:** [GitHub Profile](https://github.com/Akshat1224)  
+- **Email:** [My Email](mailto:akshatkushwaha7oct2003@gmail.com)
 
----
 
 ### **📌 How to Add This File to GitHub**
 
