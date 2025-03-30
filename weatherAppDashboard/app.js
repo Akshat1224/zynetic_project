@@ -37,7 +37,7 @@ const PORT = process.env.PORT || 8006;
 // };
 
 app.use(cors({
-    origin: 'https://zynetic-project-theta.vercel.app/',
+    origin: 'https://zynetic-project-theta.vercel.app',
     methods: ['GET', 'POST', 'DELETE', 'PUT']
 }));
 app.use(express.json());
