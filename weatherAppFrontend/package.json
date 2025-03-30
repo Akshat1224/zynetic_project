@@ -22,7 +22,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "shadcn-ui": "^0.9.5",
-    "tailwind-variants": "^1.0.0"
+    "tailwind-variants": "^1.0.0",
+    "vercel": "^41.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

@@ -36,10 +36,7 @@ const PORT = process.env.PORT || 8006;
 //     return localTime.toLocaleString();
 // };
 
-app.use(cors({
-    origin: 'https://zynetic-project-theta.vercel.app',
-    methods: ['GET', 'POST', 'DELETE', 'PUT']
-}));
+app.use(cors());
 app.use(express.json());
 
 // Create server
