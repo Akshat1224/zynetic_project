@@ -1,16 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "index.html",
-        "use": "@vercel/static"
-      }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" }
     ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
+    "redirects": [
+      { "source": "/favicon.ico", "destination": "/src/assets/favicon.ico", "permanent": true }
     ]
   }
   
