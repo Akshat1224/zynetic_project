@@ -3,14 +3,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // Ensure assets are served correctly
-  server: {
-    host: true,  // Allows external access in local development
-  },
+  base: './',  // Fix asset paths for Vercel
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    manifest: true, // Generate a manifest for debugging
+    manifest: true,  // Generate a manifest for debugging
     rollupOptions: {
       output: {
         entryFileNames: 'assets/[name]-[hash].js',
@@ -18,8 +15,5 @@ export default defineConfig({
         assetFileNames: 'assets/[name]-[hash].[ext]',
       },
     },
-  },
-  css: {
-    postcss: true, // Ensure PostCSS is enabled
   },
 });
